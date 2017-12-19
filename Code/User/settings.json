@@ -1,0 +1,54 @@
+{
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "nvim",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors": {
+        "normal": "#005f5f",
+        "insert": "#5f0000",
+        "visual": "#5f00af",
+        "visualline": "#005f87",
+        "visualblock": "#86592d",
+        "replace": "#000000"
+    },
+    "editor.lineNumbers": "relative",
+    "vim.easymotion": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "vim.disableAnnoyingNeovimMessage": true,
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "pep8",
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=numpy,cv2"
+    ],
+    "window.zoomLevel": 1,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.autoIndent": true,
+    "editor.detectIndentation": true,
+    "C_Cpp.intelliSenseEngine": "Default",
+    "files.exclude": {
+        "**/*.pyc": true
+    },
+    "workbench.panel.location": "bottom",
+    "terminal.integrated.rightClickCopyPaste": true,
+    // Port number to use for connection.
+    "remote.port": 52698,
+    // Launch the server on start up.
+    "remote.onstartup": true,
+    // Address to listen on.
+    "remote.host": "127.0.0.1"
+
