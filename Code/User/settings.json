@@ -28,9 +28,7 @@
         "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f"
     },
-    "vim.disableAnnoyingNeovimMessage": true,
     "editor.formatOnSave": true,
-    "python.formatting.provider": "pep8",
     "python.linting.pylintArgs": [
         "--extension-pkg-whitelist=numpy,cv2"
     ],
@@ -43,12 +41,6 @@
     "files.exclude": {
         "**/*.pyc": true
     },
-    "workbench.panel.location": "bottom",
     "terminal.integrated.rightClickCopyPaste": true,
-    // Port number to use for connection.
-    "remote.port": 52698,
-    // Launch the server on start up.
-    "remote.onstartup": true,
-    // Address to listen on.
-    "remote.host": "127.0.0.1"
-
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+}

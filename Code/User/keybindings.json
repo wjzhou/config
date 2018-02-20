@@ -15,5 +15,44 @@
     {
         "key": "ctrl+shift+k",
         "command": "workbench.action.terminal.focusPrevious"
-    }
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.clipboardCopyAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "editor.action.clipboardPasteAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "filesExplorer.paste",
+        "when": "explorerViewletVisible && fileCopied && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "filesExplorer.copy",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "problems.action.copy",
+        "when": "problemFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "keybindings.editor.copyKeybindingEntry",
+        "when": "inKeybindings && keybindingFocus"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "editor.action.clipboardCutAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
 ]
