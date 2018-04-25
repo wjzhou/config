@@ -23,11 +23,6 @@
     },
     "editor.lineNumbers": "relative",
     "vim.easymotion": true,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#005f5f",
-        "statusBar.noFolderBackground": "#005f5f",
-        "statusBar.debuggingBackground": "#005f5f"
-    },
     "editor.formatOnSave": true,
     "python.linting.pylintArgs": [
         "--extension-pkg-whitelist=numpy,cv2"
@@ -41,6 +36,5 @@
     "files.exclude": {
         "**/*.pyc": true
     },
-    "terminal.integrated.rightClickCopyPaste": true,
     "C_Cpp.clang_format_fallbackStyle": "Google",
 }
