@@ -55,4 +55,40 @@
         "command": "editor.action.clipboardCutAction",
         "when": "editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.terminal.focusAtIndex2"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.terminal.focusAtIndex1"
+    },
+    {
+        "key": "alt+3",
+        "command": "workbench.action.terminal.focusAtIndex3"
+    },
+    {
+        "key": "alt+4",
+        "command": "workbench.action.terminal.focusAtIndex4"
+    },
+    {
+        "key": "alt+5",
+        "command": "workbench.action.terminal.focusAtIndex5"
+    },
+    {
+        "key": "alt+6",
+        "command": "workbench.action.terminal.focusAtIndex6"
+    },
+    {
+        "key": "alt+7",
+        "command": "workbench.action.terminal.focusAtIndex7"
+    },
+    {
+        "key": "alt+8",
+        "command": "workbench.action.terminal.focusAtIndex8"
+    },
+    {
+        "key": "alt+9",
+        "command": "workbench.action.terminal.focusAtIndex9"
+    },
 ]
