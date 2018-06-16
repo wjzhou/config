@@ -37,4 +37,7 @@
         "**/*.pyc": true
     },
     "C_Cpp.clang_format_fallbackStyle": "Google",
+    "files.associations": {
+        "*.bash-completion": "shellscript"
+    }
 }
