@@ -1,5 +1,5 @@
 {
-    "vim.enableNeovim": true,
+    "vim.enableNeovim": false,
     "vim.neovimPath": "nvim",
     "vim.insertModeKeyBindings": [
         {
