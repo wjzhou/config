@@ -39,5 +39,10 @@
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "files.associations": {
         "*.bash-completion": "shellscript"
+    },
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#5f0000",
+        "statusBar.noFolderBackground": "#5f0000",
+        "statusBar.debuggingBackground": "#5f0000"
     }
 }
