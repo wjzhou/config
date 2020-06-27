@@ -1,0 +1,20 @@
+{
+	// Place your snippets for typescript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Action": {
+		"prefix": "ac",
+		"body": [
+			"",
+			"export const ${1}Action = createAction(",
+			"  '${TM_DIRECTORY/.*\\/(.*)\\/(.*)$/${2:/upcase}_/}${1/(^[a-z]+|[A-Z0-9][a-z]*)/_${1:/upcase}/g}' as const,",
+			"  component",
+			")<${2:undefined}>();",
+			"export type ${1/^(.)/${1:/upcase}/}ActionType = ActionType<typeof ${1}Action>;",
+			"$0"
+		],
+		"description": "Log output to console"
+	}
+}

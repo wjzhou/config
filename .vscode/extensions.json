@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+      "alefragnani.Bookmarks",
+      "ms-vscode.cpptools",
+      "streetsidesoftware.code-spell-checker",
+      "msjsdiag.debugger-for-chrome",
+      "mikestead.dotenv",
+      "editorconfig.editorconfig",
+      "dbaeumer.vscode-eslint",
+      "firsttris.vscode-jest-runner",
+      "ms-vsliveshare.vsliveshare",
+      "vscodeshift.material-ui-snippets",
+      "amos402.scope-bar",
+      "coolbear.systemd-unit-file",
+      "vscodevim.vim",
+      "zxh404.vscode-proto3"
+    ]
+  }

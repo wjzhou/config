@@ -1,5 +1,7 @@
 #!/bin/bash
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
 case "$OSTYPE" in
   darwin*)          path="$HOME/Library/Application Support/Code/User" ;; 
   linux*)           path="$HOME/.config/Code/User" ;;
@@ -13,5 +15,5 @@ if [ -e "$path" ] ; then
 else
     parent=$(dirname "$path")
     mkdir -p "$parent"
-    ln -s ~/config/Code/User "$path"
+    ln -s "${DIR}/Code/User" "$path"
 fi

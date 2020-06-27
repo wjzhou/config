@@ -1,6 +1,18 @@
 {
-    "vim.enableNeovim": false,
-    "vim.neovimPath": "nvim",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/node_modules": true,
+    },
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -9,6 +21,61 @@
             ],
             "after": [
                 "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "g",
+                "h"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "m"
+            ],
+            "commands": [
+                "bookmarks.toggle"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "commands": [
+                "bookmarks.list"
+            ]
+        },
+        {
+            "before": [
+                "Z",
+                "Z"
+            ],
+            "commands": [
+                ":wq"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save",
             ]
         }
     ],
@@ -22,8 +89,21 @@
         "replace": "#000000"
     },
     "editor.lineNumbers": "relative",
-    "vim.easymotion": true,
-    "editor.formatOnSave": true,
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-v>": false,
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "vim.changeWordIncludesWhitespace": true,
+    "vim.highlightedyank.enable": true,
+    "vim.replaceWithRegister": true,
+    "window.zoomLevel": 0,
+    "editor.rulers": [
+        120
+    ],
     "python.linting.pylintArgs": [
         "--extension-pkg-whitelist=numpy,cv2"
     ],
@@ -40,9 +120,13 @@
     "files.associations": {
         "*.bash-completion": "shellscript"
     },
+    "terminal.integrated.allowChords": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cSpell.spellCheckDelayMs": 500,
     "workbench.colorCustomizations": {
         "statusBar.background": "#5f0000",
         "statusBar.noFolderBackground": "#5f0000",
         "statusBar.debuggingBackground": "#5f0000"
-    }
+    },
+    "material-ui-snippets.showNotesOnStartup": false,
 }
